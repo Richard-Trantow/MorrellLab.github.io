@@ -1,0 +1,9 @@
+<!--Template for lab member blurbs on people.html-->
+<p style="clear: both;"><!--Create a container for the blurb-->
+    <h3>{{ include.name }}</h3><!--Name gets to be header-level 3-->
+    {% if include.image %}<!--Do we have an image?-->
+        <img src="{{ site.github_url }}{{site.images_dir }}{{ include.image }}" style="float:left; border: 5px solid #1D2120; height: 150px;"><!--If so, include it-->
+    {% endif %}<!--The `if' is necessary to prevent ugly icons-->
+    <span class="post-date">{{ include.start | date: "%b, %Y" }}&mdash;{{ include.end }}</span><!--Dates worked-->
+    <span class="post-content">{{ include.content }}</span><!--The blurb-->
+</p><!--End the container-->

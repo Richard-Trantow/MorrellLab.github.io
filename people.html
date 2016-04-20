@@ -1,0 +1,48 @@
+---
+layout: page
+title: People
+permalink: /people/
+---
+
+<div class="home">
+    <div class="posts" style="clear:both; ">
+        <h2>Principal Investigator</h2>
+        {% for post in site.people %}
+                {% if post.rank == 'principal' %}
+                    {% include people_blurb.html name=post.name start=post.start-date end=post.end-date image=post.image content=post.content %}
+                {% endif %}
+            {% endfor %}
+    </div>
+    <div class="posts" style="clear:both; padding-bottom: 50px">
+        <h2>Postdoctoral Scholars</h2>
+        {% for post in site.people %}
+                {% if post.rank == 'postdoc' %}
+                    {% include people_blurb.html name=post.name start=post.start-date end=post.end-date image=post.image content=post.content %}
+                {% endif %}
+            {% endfor %}
+    </div>
+    <div class="posts" style="clear:both; padding-bottom: 50px">
+        <h2>Technicians</h2>
+            {% for post in site.people %}
+                {% if post.rank == 'technician' %}
+                    {% include people_blurb.html name=post.name start=post.start-date end=post.end-date image=post.image content=post.content %}
+                {% endif %}
+            {% endfor %}
+    </div>
+    <div class="posts" style="clear:both; padding-bottom: 50px">
+        <h2>Graduate Students</h2>
+            {% for post in site.people %}
+                {% if post.rank == 'graduate' %}
+                    {% include people_blurb.html name=post.name start=post.start-date end=post.end-date image=post.image content=post.content %}
+                {% endif %}
+            {% endfor %}
+    </div>
+    <div class="posts" style="clear:both; padding-bottom: 50px">
+        <h2>Undergraduates</h2>
+            {% for post in site.people %}
+                {% if post.rank == 'undergraduate' %}
+                    {% include people_blurb.html name=post.name start=post.start-date end=post.end-date image=post.image content=post.content %}
+                {% endif %}
+            {% endfor %}
+    </div>
+</div>

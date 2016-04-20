@@ -1,0 +1,54 @@
+---
+layout: page
+title: Lab Meetings
+permalink: /meetings/
+---
+
+{% assign site_year = site.time | date: "%Y" %}
+{% assign site_day = site.time | date: "%j" %}
+
+<div class="home">
+
+    <p>
+        Our weekly meetings involve discussion of papers related to population or quantitative genetics, molecular evolution, plant evolution, DNA sequencing, and computational biology.
+        Everyone is welcome to attend; you’ll even get a chance to lead the discussion.
+    </p><br />
+    <p>
+        Participants in our lab meeting are also tracking relevant journals that cover genetics, genomics and evolutionary biology.
+        You can see their latest article picks in <a href="https://github.com/MorrellLAB/Journals" rel="external">this</a> GitHub repository.
+    </p><br />
+    <p>
+        For Spring 2016, meetings are <b>Monday</b> at <b>2:45 pm</b>. Weather permitting, we meet on the patio of Borlaug Hall (on the St. Paul campus).
+        In inclement weather, we meet in <b>409 Borlaug Hall</b>.
+    </p><br />
+    <p>
+        Joint meetings with the
+        <a href="http://yanivbrandvain.wordpress.com/" rel="external">Brandvain</a>/
+        <a href="http://www.cbs.umn.edu/labs/moeller/Home.html" rel="external">Moeller</a>/
+        <a href="https://cbs.umn.edu/contacts/suzanne-mcgaugh" rel="external">McGaugh</a>/
+        <a href="http://www.cbs.umn.edu/tiffin/" rel="external">Tiffin</a> lab groups are scheduled for roughly one per month in 371 Bioscience (also on the St. Paul campus).
+        Also check out <a href="http://umnevoltwin.com/" rel="external">UMNEvolTwin</a> for interaction with evolutionary biologist on campus.
+        UMNEvolTwin is also on <a href="https://twitter.com/UMNevoltwin" rel="external">Twitter</a>.
+    </p><br />
+    <hr />
+    <h2>Meeting Schedule</h2>
+    <ul class="posts">
+        <br />
+        {% for post in site.meetings %}
+            {% assign post_year = post.meet_date | date: "%Y" %}
+            {% assign post_day = post.meet_date | date: "%j" %}
+            {% if post_year >= site_year %}
+                {% if post_day >= site_day %}
+                    <li>
+                        <span class="post-date">{{ post.meet_date | date: "%b %-d, %Y" }} &#9679 {{ post.leader }}</span>
+                        <a class="post-link" href="{{ post.paper_url }}">{{ post.paper_title }}</a> <br />
+                        <span class="post-content">{{ post.paper_author }} ({{ post.paper_year }}). {{post.paper_journal }}</span>
+                    </li>
+                {% endif %}
+            {% endif %}
+        {% endfor %}
+    </ul><br />
+
+    <a href="../previous/index.html">Previous Meetings</a>
+
+</div>

@@ -1,0 +1,24 @@
+# Site settings
+title: Morrell Lab
+email: pmorrell@umn.edu
+description: "Evolutionary Genetics and Plant Evolution"
+baseurl: ""
+url: "mojaveazure.github.io"
+github_url: "https://github.com/mojaveazure/mojaveazure.github.io/"
+images_dir: "/raw/master/images/"
+twitter_username: PeterLMorrell
+github_username:  MorrellLab
+future: true
+
+# Build settings
+markdown: kramdown
+permalink: pretty
+
+# Custom Collections
+collections:
+    meetings:
+        output: true
+    compute:
+        output: true
+    people:
+        output: true

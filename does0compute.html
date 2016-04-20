@@ -1,0 +1,42 @@
+---
+layout: page
+title: Does[0]Compute?
+permalink: /compute/
+---
+
+{% assign site_year = site.time | date: "%Y" %}
+{% assign site_day = site.time | date: "%j" %}
+
+<div class="home">
+    
+    <p>
+        Does[0]compute? (pronounced “Does naught compute?”), is intended to foster a discussion about best practices in computational biology. For Spring 2016, we are reading <a href="http://pythonforbiologists.com/index.php/books/" rel="external"><i>Advanced Python for Biologists</i></a> by Dr. Martin Jones.
+    </p><br />
+    <p>
+        <b>The next meeting of the intermediate/advanced group will be in 213 Borlaug Hall on 26 February 2016, 2:00-3:00 pm</b>. Please bring a computer to use during the discussion.
+    </p><br />
+    <p>
+        For more information, sign up for the Google group, "<a href="https://groups.google.com/a/umn.edu/forum/#!forum/biocomputing" rel ="external">Biocomputing Discussion Group</a>".
+    </p><br />
+    <p>
+        Subscribe to a <a href="webcal://p04-calendars.icloud.com/published/2/jE9MjkpWVIb9tq2CbFvpmB9asNoA59rK6468l9g2TZZunIk9znRNbxIQ4_srNiRQ-g9vgE_Q39d2yLgANj2zJLacC8YEDiZJrcaFhK3ROuw" rel="external">calendar</a> of Does[0]compute? meetings.
+    </p><br />
+    <hr />
+    <h2>Meeting Schedule</h2>
+    <ul class="posts">
+        {% for post in site.compute %}
+            {% assign post_year = post.meet_date | date: "%Y" %}
+            {% assign post_day = post.meet_date | date: "%j" %}
+            {% if  post_year >= site_year %}
+                {% if post_day >= site_day %}
+                    <li>
+                        <span class="post-date">{{ post.meet_date | date: "%b %-d, %Y" }}</span>
+                        <a class="post-link" href="{{ post.url }}">{{ post.topic }}</a><br />
+                        <span class="post-content">Lead by: {{ post.leaders }}</span>
+                    </li>
+                {% endif %}
+            {% endif %}
+        {% endfor %}
+    </ul>
+    
+</div>
