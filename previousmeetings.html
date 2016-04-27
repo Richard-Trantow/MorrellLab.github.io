@@ -9,18 +9,24 @@ permalink: /previous/
 
 <div class="home">
     <ul class="posts">
-        {% for post in site.meetings %}
+        {% for post in site.meetings reversed%}
             {% assign post_year = post.meet_date | date: "%Y" %}
             {% assign post_day = post.meet_date | date: "%j" %}
-            {% if post_year > site_year %}
-                {% continue %}
-            {% endif %}
-            {% if post_day < site_day %}
+            {% if post_year < site_year %}
                 <li>
-                    <span class="post-date">{{ post.meet_date | date: "%b %-d, %Y" }} &#9679 {{ post.leader }}</span>
+                    <span class="post-date">{{ post.meet_date | date: "%b %-d, %Y" }} - Lead by {{ post.leader }}</span>
                     <a class="post-link" href="{{ post.paper_url }}">{{ post.paper_title }}</a> <br />
-                    <span class="post-content">{{ post.paper_author }} ({{ post.paper_year }}). {{post.paper_journal }}</span>
-                </li>
+                    <span class="post-content">{{ post.paper_author }} ({{ post.paper_year }}). {{post.paper_journal }}.</span>
+                </li>     
+            {% endif %}
+            {% if post_year == site_year %}
+                {% if post_day < site_day %}
+                    <li>
+                        <span class="post-date">{{ post.meet_date | date: "%b %-d, %Y" }} - Lead by {{ post.leader }}</span>
+                        <a class="post-link" href="{{ post.paper_url }}">{{ post.paper_title }}</a> <br />
+                        <span class="post-content">{{ post.paper_author }} ({{ post.paper_year }}). {{post.paper_journal }}.</span>
+                    </li>
+                {% endif %}
             {% endif %}
         {% endfor %}
     </ul>
