@@ -4,6 +4,35 @@
     {% if include.image %}<!--Do we have an image?-->
         <img src="{{ site.github_url }}{{site.images_dir }}{{ include.image }}" style="float:left; border: 5px solid #1D2120; height: 150px;"><!--If so, include it-->
     {% endif %}<!--The `if' is necessary to prevent ugly icons-->
-    <span class="post-date">{{ include.start | date: "%b, %Y" }}&mdash;{{ include.end }}</span><!--Dates worked-->
+    {% if include.google-scholar %}
+        <a href="{{ include.google-scholar }}" rel="external">
+        <span class="name">Google Scholar</span>
+        </a>
+        {% if include.github or include.linkedin or include.twitter %}
+        |
+        {% endif %}
+    {% endif %}
+    {% if include.github %}
+        <a href="{{ include.github }}" rel="external">
+        <span class="name">Github</span>
+        </a>
+        {% if include.linkedin or include.twitter %}
+        |
+        {% endif %}
+    {% endif %}
+    {% if include.linkedin %}
+        <a href="{{ include.linkedin }}" rel="external">
+        <span class="name">LinkedIn</span>
+        </a>
+        {% if include.twitter %}
+        |
+        {% endif %}
+    {% endif %}
+    {% if include.twitter %}
+        <a href="{{ include.twitter }}" rel="external">
+        <span class="name">Twitter</span>
+        </a>
+    {% endif %}
+    <span class="post-date">{{ include.start | date: "%b, %Y" }} &mdash; {{ include.end }}</span><!--Dates worked-->
     <span class="post-content">{{ include.content }}</span><!--The blurb-->
 </p><!--End the container-->
