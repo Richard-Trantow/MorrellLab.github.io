@@ -1,5 +1,6 @@
 # Site settings
 title: Morrell Lab
+affiliation: University of Minnesota
 email: pmorrell@umn.edu
 description: "Evolutionary Genetics and Plant Evolution"
 baseurl: ""
