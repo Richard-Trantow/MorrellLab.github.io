@@ -45,4 +45,12 @@ permalink: /people/
                 {% endif %}
             {% endfor %}
     </div>
+    <div class="posts" style="clear:both; padding-bottom: 50px">
+        <h2>Former Lab Members</h2>
+            {% for post in site.people %}
+                {% if post.rank == 'former' %}
+                    {% include people_blurb.html name=post.name start=post.start-date end=post.end-date image=post.image content=post.content github=post.github google-scholar=post.google-scholar linkedin=post.linkedin twitter=post.twitter%}
+                {% endif %}
+            {% endfor %}
+    </div>
 </div>
