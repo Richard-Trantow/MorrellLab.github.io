@@ -1,7 +1,7 @@
 ---
 layout: meeting
 meet_date: 2016-05-09
-leader: "Felipe Reyes"
+leader: "Shawn Goggins"
 paper_author: "Rogers RL, Cridland JM, Shao L, Hu TT, Andolfatto P et al."
 paper_year: 2014
 paper_title: "Landscape of standing variation for tandem duplications in Drosophila yakuba and Drosophila simulans"
