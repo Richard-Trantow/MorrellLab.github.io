@@ -17,7 +17,7 @@ permalink: /people/
         <h2>Postdoctoral Scholars</h2>
         {% for post in site.people %}
                 {% if post.rank == 'postdoc' %}
-                    {% include people_blurb.html name=post.name start=post.start-date end=post.end-date image=post.image content=post.content github=post.github google-scholar=post.google-scholar linkedin=post.linkedin twitter=post.twitter%}
+                    {% include people_blurb.html name=post.name start=post.start-date end=post.end-date image=post.image content=post.content github=post.github google-scholar=post.google-scholar linkedin=post.linkedin twitter=post.twitter website=post.website%}
                 {% endif %}
             {% endfor %}
     </div>
@@ -25,7 +25,7 @@ permalink: /people/
         <h2>Technicians</h2>
             {% for post in site.people %}
                 {% if post.rank == 'technician' %}
-                    {% include people_blurb.html name=post.name start=post.start-date end=post.end-date image=post.image content=post.content github=post.github google-scholar=post.google-scholar linkedin=post.linkedin twitter=post.twitter%}
+                    {% include people_blurb.html name=post.name start=post.start-date end=post.end-date image=post.image content=post.content github=post.github google-scholar=post.google-scholar linkedin=post.linkedin twitter=post.twitter website=post.website%}
                 {% endif %}
             {% endfor %}
     </div>
@@ -33,7 +33,7 @@ permalink: /people/
         <h2>Graduate Students</h2>
             {% for post in site.people %}
                 {% if post.rank == 'graduate' %}
-                     {% include people_blurb.html name=post.name start=post.start-date end=post.end-date image=post.image content=post.content github=post.github google-scholar=post.google-scholar linkedin=post.linkedin twitter=post.twitter%}
+                     {% include people_blurb.html name=post.name start=post.start-date end=post.end-date image=post.image content=post.content github=post.github google-scholar=post.google-scholar linkedin=post.linkedin twitter=post.twitter website=post.website%}
                 {% endif %}
             {% endfor %}
     </div>
@@ -41,7 +41,7 @@ permalink: /people/
         <h2>Undergraduates</h2>
             {% for post in site.people %}
                 {% if post.rank == 'undergraduate' %}
-                    {% include people_blurb.html name=post.name start=post.start-date end=post.end-date image=post.image content=post.content github=post.github google-scholar=post.google-scholar linkedin=post.linkedin twitter=post.twitter%}
+                    {% include people_blurb.html name=post.name start=post.start-date end=post.end-date image=post.image content=post.content github=post.github google-scholar=post.google-scholar linkedin=post.linkedin twitter=post.twitter website=post.website%}
                 {% endif %}
             {% endfor %}
     </div>
@@ -49,8 +49,43 @@ permalink: /people/
         <h2>Former Lab Members</h2>
             {% for post in site.people %}
                 {% if post.rank == 'former' %}
-                    {% include people_blurb.html name=post.name start=post.start-date end=post.end-date image=post.image content=post.content github=post.github google-scholar=post.google-scholar linkedin=post.linkedin twitter=post.twitter%}
+                    {% include people_blurb.html name=post.name start=post.start-date end=post.end-date image=post.image content=post.content github=post.github google-scholar=post.google-scholar linkedin=post.linkedin twitter=post.twitter website=post.website%}
                 {% endif %}
             {% endfor %}
+            <br>
+            <br>
+            <br>Ashley Rozmarin, 2012-2015 - Undergraduate student
+            <br>Benjamin Weil, 2014-2015 - Undergraduate student
+            <br>Kelly Tweito, 2013 - Undergraduate student
+            <br>Margie Stringfield, 2013 - Summer intern
+            <br><a href="http://geo.cbs.umn.edu/#People" rel="external">Erin Treiber</a>, 2011 - Rotation student
+            <br>Amber Eule-Nashoba, 2011 - Rotation student
+            <br>Margaret Taylor, 2011 - Rotation student
+            <br>Beau Miller, 2011-2012 - Undergraduate student
+            <br>Diego Coelho, 2010 - Undergraduate student (greenhouse & bioinformatics)
+            <br><a href="http://www.linkedin.com/profile/view?id=65810533&goback=%2Enmp_*1_*1_*1_*1_*1_*1&trk=NUS_CONN-conntr" rel="external">Kevin Volz</a>, 2010 - Undergraduate student (geographic information systems)
+    </div>
+    <div class="posts" style="clear:both; padding-bottom: 50px">
+        <h2>Honorary Lab Members</h2>
+            {% for post in site.people %}
+                {% if post.rank == 'honorary' %}
+                    {% include people_blurb.html name=post.name start=post.start-date end=post.end-date image=post.image content=post.content github=post.github google-scholar=post.google-scholar linkedin=post.linkedin twitter=post.twitter website=post.website%}
+                {% endif %}
+            {% endfor %}
+        <h2>Current Collaborators</h2>
+            <br>Michael T. Clegg, Univ. of California, Irvine
+            <br>Concepcion M. Diez, Universidad de Córdoba
+            <br>James E. Kurle, Univ. of Minnesota
+            <br>Brandon S. Gaut, Univ. of California, Irvine
+            <br>Gary J. Muehlbauer, Univ. of Minnesota
+            <br>James H. Orf, Univ. of Minnesota
+            <br><a href="http://www.rilab.org/" rel="external">Jeffrey Ross-Ibarra</a>, Univ. of California, Davis
+            <br>Kevin P. Smith, Univ. of Minnesota
+            <br>Brian J. Steffenson, Univ. of Minnesota
+            <br><a href="http://stuparlab.cfans.umn.edu/" rel="external">Robert M. Stupar</a>, Univ. of Minnesota
+            <br>Nevin D. Young, Univ. of Minnesota
+        <h2>Past Collaborators</h2>
+            <br><a href="http://www.cvm.umn.edu/equinegenetics/home.html" rel="external">Molly E. McCue</a>, Univ. of Minnesota
+            <br>James R. Mickelson, Univ. of Minnesota
     </div>
 </div>

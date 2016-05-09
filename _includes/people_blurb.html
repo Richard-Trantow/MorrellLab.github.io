@@ -4,6 +4,14 @@
     {% if include.image %}<!--Do we have an image?-->
         <img src="{{ site.github_url }}{{site.images_dir }}{{ include.image }}" style="float:left; border: 5px solid #1D2120; height: 150px;"><!--If so, include it-->
     {% endif %}<!--The `if' is necessary to prevent ugly icons-->
+    {% if include.website %}
+        <a href="{{ include.website }}" rel="external">
+        <span class="name">Website</span>
+        </a>
+        {% if include.google-scholar or include.github or include.linkedin or include.twitter %}
+        |
+        {% endif %}
+    {% endif %}  
     {% if include.google-scholar %}
         <a href="{{ include.google-scholar }}" rel="external">
         <span class="name">Google Scholar</span>
@@ -33,6 +41,14 @@
         <span class="name">Twitter</span>
         </a>
     {% endif %}
-    <span class="post-date">{{ include.start | date: "%b, %Y" }} &mdash; {{ include.end }}</span><!--Dates worked-->
+    <span class="post-date">
+        {% if include.end %}
+            {% assign problem = include.start | date: "%Y" %}
+            {% case problem %}
+                {% when '1969' %}{{ include.start}} &mdash; {{ include.end }}
+                {% else %}{{ include.start | date: "%b, %Y" }} &mdash; {{ include.end }}
+            {% endcase %}
+        {% endif %}
+    </span><!--Dates worked-->
     <span class="post-content">{{ include.content }}</span><!--The blurb-->
 </p><!--End the container-->

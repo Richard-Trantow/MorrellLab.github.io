@@ -12,4 +12,4 @@ twitter:
 
 PhD Plant Biological Sciences 2013.
 Biometrics and Breeding Research Scientist at Bayer CropScience.
-Formerly postdoc with Jim Holland at North Carolina State University.
+Formerly a postdoctoral scholar with <a href="http://www4.ncsu.edu/~jholland/homepage.htm" rel="external">Jim Holland</a> at North Carolina State University.

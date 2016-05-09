@@ -9,3 +9,5 @@ github: https://github.com/Aerin13
 linkedin:
 twitter:
 ---
+
+Skylar is interested in bioinformatics and using computational tools to automate sequence processing.
