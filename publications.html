@@ -1,0 +1,32 @@
+---
+layout: page
+title: Publications
+permalink: /publications/
+---
+
+<div class="home">
+    <h4>
+    <a href="http://scholar.google.com/citations?user=GnCbOj4AAAAJ&hl=en" rel="external">Google Scholar</a> | 
+    <a href="http://www.researcherid.com/ProfileView.action?SID=3FQCX6BjUEzreDOoabY&returnCode=ROUTER.Success&queryString=KG0UuZjN5WnWRkoEY6n%252Fnao36n1lwZN%252BI6RDxvBApGM%253D&SrcApp=CR&Init=Yes" rel="external">ISI</a> | 
+    <a href="http://orcid.org/0000-0001-6282-1582" rel="external">ORCiD</a> | 
+    <a href="http://www.ncbi.nlm.nih.gov/pubmed?cmd=PureSearch&term=morrell+pl%5BAuthor%5D" rel="external">PubMed</a>
+    </h4>
+    <ul class="posts">
+        <h2>Pre-prints and articles in review</h2>
+        {% for post in site.publications %}
+            {% if post.paper_year == preprint %}
+                <a class="post-link" href="{{ post.paper_url }}">{{ post.paper_title }}</a> <br>
+                <span class="post-content">{{ post.paper_author }} ({{ post.paper_year }}). {{post.paper_journal }}.</span>
+            {% endif %}
+        {% endfor %}
+    </ul><br />
+    <ul class="posts">
+        <h2>2016</h2>
+        {% for post in site.publications %}
+            {% if post.paper_year == 2016 %}
+                <a class="post-link" href="{{ post.paper_url }}">{{ post.paper_title }}</a> <br>
+                <span class="post-content">{{ post.paper_author }} ({{ post.paper_year }}). {{post.paper_journal }}.</span>
+            {% endif %}
+        {% endfor %}
+    </ul><br />
+</div>
