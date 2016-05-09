@@ -1,7 +1,7 @@
 ---
 layout: meeting
 meet_date: 2016-05-23
-leader: "Peter Morrell"
+leader: "Skylar Wyant"
 paper_author: "Brandvain Y, Wright SI"
 paper_year: 2016
 paper_title: "The limits of natural selection in a nonequilibrium world"

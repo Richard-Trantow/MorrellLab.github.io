@@ -1,7 +1,7 @@
 ---
 layout: meeting
 meet_date: 2016-05-16
-leader: "Skylar Wyant"
+leader: "Felipe Reyes"
 paper_author: "Bryan J, Cranston K, Kitzes J, Nederbragt L, Teal T et al."
 paper_year: 2016
 paper_title: "Good enough practices for scientific computing"
