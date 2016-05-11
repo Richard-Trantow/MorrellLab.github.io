@@ -16,7 +16,8 @@ permalink: /publications/
         {% for post in site.publications %}
             {% if post.paper_year == "preprint" %}
                 <a class="post-link" href="{{ post.paper_url }}">{{ post.paper_title }}</a> <br>
-                <span class="post-content">{{ post.paper_author }} ({{ post.paper_year }}). {{post.paper_journal }}.</span> <br> <br>
+                <span class="post-content">{{ post.paper_author }} ({{ post.paper_year }}). {{post.paper_journal }}. <br>
+                {{ post.content }} </span> <br>
             {% endif %}
         {% endfor %}
     </ul><br />
@@ -25,7 +26,8 @@ permalink: /publications/
         {% for post in site.publications %}
             {% if post.paper_year == 2016 %}
                 <a class="post-link" href="{{ post.paper_url }}">{{ post.paper_title }}</a> <br>
-                <span class="post-content">{{ post.paper_author }} ({{ post.paper_year }}). {{post.paper_journal }}.</span> <br> <br>
+                <span class="post-content">{{ post.paper_author }} ({{ post.paper_year }}). {{post.paper_journal }}. <br>
+                {{ post.content }} </span> <br>
             {% endif %}
         {% endfor %}
     </ul><br />
@@ -34,11 +36,8 @@ permalink: /publications/
         {% for post in site.publications %}
             {% if post.paper_year == 2015 %}
                 <a class="post-link" href="{{ post.paper_url }}">{{ post.paper_title }}</a> <br>
-                <span class="post-content">{{ post.paper_author }} ({{ post.paper_year }}). {{post.paper_journal }}.</span> <br> 
-                {% if post.paper_title == "Barley landraces are characterized by geographically heterogeneous genomic origins" %}
-                    Research highlight by Robin Allaby: <a href="http://genomebiology.biomedcentral.com/articles/10.1186/s13059-015-0743-9" rel="external">Barley domestication: the end of a central dogma?</a> <br>
-                {% endif %}
-                <br>
+                <span class="post-content">{{ post.paper_author }} ({{ post.paper_year }}). {{post.paper_journal }}. <br>
+                {{ post.content }} </span> <br>
             {% endif %}
         {% endfor %}
     </ul><br />
@@ -47,12 +46,8 @@ permalink: /publications/
         {% for post in site.publications %}
             {% if post.paper_year == 2014 %}
                 <a class="post-link" href="{{ post.paper_url }}">{{ post.paper_title }}</a> <br>
-                <span class="post-content">{{ post.paper_author }} ({{ post.paper_year }}). {{post.paper_journal }}.</span> <br>
-                {% if post.paper_title == "SNPMeta: SNP annotation and SNP metadata collection without a reference genome" %}
-                    <a href="http://www.tc.umn.edu/~konox006/Code/SNPMeta/" rel="external">Program Documentation</a> <br>
-                    <a href="https://github.com/pmorrell/SNPMeta" rel="external">Latest Version on Github</a> <br>
-                {% endif %}
-                <br>
+                <span class="post-content">{{ post.paper_author }} ({{ post.paper_year }}). {{post.paper_journal }}. <br>
+                {{ post.content }} </span> <br>
             {% endif %}
         {% endfor %}
     </ul><br />
@@ -61,7 +56,8 @@ permalink: /publications/
         {% for post in site.publications %}
             {% if post.paper_year == 2013 %}
                 <a class="post-link" href="{{ post.paper_url }}">{{ post.paper_title }}</a> <br>
-                <span class="post-content">{{ post.paper_author }} ({{ post.paper_year }}). {{post.paper_journal }}.</span> <br> <br>
+                <span class="post-content">{{ post.paper_author }} ({{ post.paper_year }}). {{post.paper_journal }}. <br>
+                {{ post.content }} </span> <br>
             {% endif %}
         {% endfor %}
     </ul><br />
@@ -70,8 +66,71 @@ permalink: /publications/
         {% for post in site.publications %}
             {% if post.paper_year == 2012 %}
                 <a class="post-link" href="{{ post.paper_url }}">{{ post.paper_title }}</a> <br>
-                <span class="post-content">{{ post.paper_author }} ({{ post.paper_year }}). {{post.paper_journal }}.</span> <br> <br>
+                <span class="post-content">{{ post.paper_author }} ({{ post.paper_year }}). {{post.paper_journal }}. <br>
+                {{ post.content }} </span> <br>
             {% endif %}
+        {% endfor %}
+    </ul><br />
+    <ul class="posts">
+        <h2>2011</h2>
+        {% for post in site.publications %}
+            {% if post.paper_year == 2011 %}
+                <a class="post-link" href="{{ post.paper_url }}">{{ post.paper_title }}</a> <br>
+                <span class="post-content">{{ post.paper_author }} ({{ post.paper_year }}). {{post.paper_journal }}. <br>
+                {{ post.content }} </span> <br>
+            {% endif %}
+        {% endfor %}
+    </ul><br />
+    <ul class="posts">
+        <h2>2010</h2>
+        {% for post in site.publications %}
+            {% if post.paper_year == 2010 %}
+                <a class="post-link" href="{{ post.paper_url }}">{{ post.paper_title }}</a> <br>
+                <span class="post-content">{{ post.paper_author }} ({{ post.paper_year }}). {{post.paper_journal }}. <br>
+                {{ post.content }} </span> <br>
+            {% endif %}
+        {% endfor %}
+    </ul><br />
+    <ul class="posts">
+        <h2>2009</h2>
+        {% for post in site.publications %}
+            {% if post.paper_year == 2009 %}
+                <a class="post-link" href="{{ post.paper_url }}">{{ post.paper_title }}</a> <br>
+                <span class="post-content">{{ post.paper_author }} ({{ post.paper_year }}). {{post.paper_journal }}. <br>
+                {{ post.content }} </span> <br>
+            {% endif %}
+        {% endfor %}
+    </ul><br />
+    <ul class="posts">
+        <h2>2008</h2>
+        {% for post in site.publications %}
+            {% if post.paper_year == 2008 %}
+                <a class="post-link" href="{{ post.paper_url }}">{{ post.paper_title }}</a> <br>
+                <span class="post-content">{{ post.paper_author }} ({{ post.paper_year }}). {{post.paper_journal }}. <br>
+                {{ post.content }} </span> <br>
+            {% endif %}
+        {% endfor %}
+    </ul><br />
+    <ul class="posts">
+        <h2>2007</h2>
+        {% for post in site.publications %}
+            {% if post.paper_year == 2007 %}
+                <a class="post-link" href="{{ post.paper_url }}">{{ post.paper_title }}</a> <br>
+                <span class="post-content">{{ post.paper_author }} ({{ post.paper_year }}). {{post.paper_journal }}. <br>
+                {{ post.content }} </span> <br>
+            {% endif %}
+        {% endfor %}
+    </ul><br />
+    <ul class="posts">
+        <h2>Older Publications</h2>
+        {% for post in site.publications reversed %}
+            {% unless post.paper_year contains "preprint" %}
+                {% if post.paper_year < 2007 %}
+                    <a class="post-link" href="{{ post.paper_url }}">{{ post.paper_title }}</a> <br>
+                    <span class="post-content">{{ post.paper_author }} ({{ post.paper_year }}). {{post.paper_journal }}. <br>
+                    {{ post.content }} </span> <br>
+                {% endif %}
+            {% endunless %}
         {% endfor %}
     </ul><br />
 </div>
