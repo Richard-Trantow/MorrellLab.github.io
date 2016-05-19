@@ -1,8 +1,8 @@
 ---
 name: "Zhou Fang"
 rank: former
-start-date: 
-end-date: 
+start-date: 2009
+end-date: 2013
 image: "zhou.jpg"
 google-scholar: http://scholar.google.com/citations?user=49CG4mIAAAAJ
 github: 

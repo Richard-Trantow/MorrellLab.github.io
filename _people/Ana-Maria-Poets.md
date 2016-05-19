@@ -1,8 +1,8 @@
 ---
 name: "Ana Maria Poets [Gonzales]"
 rank: former
-start-date: 
-end-date: 
+start-date: 2010
+end-date: 2015
 image: "ana.jpg"
 google-scholar: http://scholar.google.com/citations?user=FUuzXzwAAAAJ&hl=en
 github: https://github.com/agonzales

@@ -1,8 +1,8 @@
 ---
 name: "Kiran Seth"
 rank: former
-start-date: 
-end-date: 
+start-date: 2009
+end-date: 2015
 image: "kiran.jpg"
 google-scholar: 
 github: 
