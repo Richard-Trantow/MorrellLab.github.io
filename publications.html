@@ -30,12 +30,12 @@ permalink: /publications/
                         <a class="post-link" href="{{ post.paper_url }}">{{ post.paper_title }}</a><br />
                         <span class="post-content">{{ post.paper_author }} ({{ post.paper_year }}). {{post.paper_journal }}.</span><br />
                         {% if post.content %} <!-- Include any extra content if present -->
-                            <span class="post-content">{{ post.content }}</span><br />
+                            <span class="post-content">{{ post.content }}</span>
                         {% endif %}
                         <br /> <!-- One last line break -->
                     {% endif %}
                 {% endfor %}
-                </ul><br />
+                </ul>
             {% endunless %}
         {% endfor %}
 </div>
