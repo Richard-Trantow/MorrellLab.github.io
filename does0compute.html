@@ -10,12 +10,8 @@ permalink: /compute/
 <div class="home">
     
     <p>
-        Does[0]compute? (pronounced “Does naught compute?”), is intended to foster a discussion about best practices in computational biology. For Spring 2016, we are reading <a href="http://pythonforbiologists.com/index.php/books/" rel="external"><i>Advanced Python for Biologists</i></a> by Dr. Martin Jones.
-    </p><br />
-    <p>
-        The intermediate/advanced group meets in 213 Borlaug Hall every other Friday from 2:00 - 3:00 pm. Upcoming meeting times are shown below. Please bring a computer to use during the discussion.
-    </p><br />
-    <p>
+        Does[0]compute? (pronounced “Does naught compute?”), is intended to foster a discussion about best practices in computational biology. <!--For Spring 2016, we are reading <a href="http://pythonforbiologists.com/index.php/books/" rel="external"><i>Advanced Python for Biologists</i></a> by Dr. Martin Jones.-->
+        The discussion group meets in 213 Borlaug Hall every other Friday from 2:00 - 3:00 pm. Upcoming meeting times are shown below. Please bring a computer to use during the discussion.
         For more information, sign up for the Google group, "<a href="https://groups.google.com/a/umn.edu/forum/#!forum/biocomputing" rel ="external">Biocomputing Discussion Group</a>".
     </p><br />
     <p>
@@ -32,7 +28,14 @@ permalink: /compute/
                     <li>
                         <span class="post-date">{{ post.meet_date | date: "%b %-d, %Y" }}</span>
                         <a class="post-link" href="{{ post.url }}">{{ post.topic }}</a><br />
-                        <span class="post-content">Lead by: {{ post.leaders }}</span>
+                        <span class="post-content">
+                            Lead by:
+                            {% if post.leaders %}
+                                {{ post.leaders }}
+                            {% else %}
+                                <em>To be determined</em>
+                            {% endif %}
+                        </span>
                     </li>
                 {% endif %}
             {% endif %}
