@@ -3,7 +3,10 @@ layout: hidden_page
 hidden_title: Data Sets
 permalink: /datasets/
 ---
-The majority of our published DNA sequence datasets are available through the "[PopSet](http://www.ncbi.nlm.nih.gov/popset)" archive at NCBI (GenBank). Unfortunately, the PopSet archive does not preserve original alignments. Links to PopSet data sets are below, and original alignments will be added. There are also links to a couple of datasets (e.g., wild barley Adh1 and Adh3, SNP genotyping data from maize and teosinte) that we did not generate but have used in analyses.
+The majority of our published DNA sequence datasets are available through the "[PopSet](http://www.ncbi.nlm.nih.gov/popset)" archive at NCBI (GenBank).
+Unfortunately, the PopSet archive does not preserve original alignments.
+Links to PopSet data sets are below, and original alignments will be added.
+There are also links to a couple of datasets (e.g., wild barley Adh1 and Adh3, SNP genotyping data from maize and teosinte) that we did not generate but have used in analyses.
 
 [Kono et al. 2015 (in preparation)](http://biorxiv.org/content/early/2015/11/28/033175). BioRxiv. Barley SNPs from Illumina resequencing, genotyping platforms, and prior Sanger sequencing in VCF format. [Data Sets]
 
