@@ -25,3 +25,5 @@ collections:
         output: true
     publications:
         output: true
+    classics:
+        output: true
