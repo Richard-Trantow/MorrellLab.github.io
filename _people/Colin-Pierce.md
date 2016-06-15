@@ -1,9 +1,9 @@
 ---
 name: "Colin Pierce"
-rank: honorary
+rank: graduate
 start-date: 2015
 end-date: Present
-image:
+image: colin.jpg
 google-scholar:
 github:
 linkedin:

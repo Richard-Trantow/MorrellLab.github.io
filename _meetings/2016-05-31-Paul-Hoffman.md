@@ -1,6 +1,6 @@
 ---
 layout: meeting
-meet_date: 2016-05-30
+meet_date: 2016-05-31
 leader: "Paul Hoffman"
 paper_author: "Cooke TF, Yee M-C, Muzzio M, Sockell A, Bell R et al."
 paper_year: 2016

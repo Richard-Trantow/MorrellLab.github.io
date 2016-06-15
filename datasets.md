@@ -16,7 +16,7 @@ There are also links to a couple of datasets (e.g., wild barley Adh1 and Adh3, S
 
 [Poets et al. 2015](http://www.genomebiology.com/2015/16/1/173). Genome Biology. SNP calls for barley landraces based on machine-scored data using [Alchemy](http://alchemy.sourceforge.net). [Raw Genotyping Data](https://figshare.com/articles/Raw_Genotyping_Data_Barley_%20landraces_are_characterized_by_geographically_hetero-%20geneous_genomic_origins/1468432).
 
-[Fang et al. 2014](http://www.g3journal.org/content/4/7/1193.abstract). G3. SNP genotyping from barley oligo pool assay 1 & 2 ([BOPA1] & [BOPA2]) and [SSR] from the Wild Barley Diversity Collection. SNP calls are based on machine-scored data using [Alchemy](http://alchemy.sourceforge.net). 
+[Fang et al. 2014](http://www.g3journal.org/content/4/7/1193.abstract). G3. SNP genotyping from barley oligo pool assay 1 & 2 ([BOPA1](http://morrell-lab.cfans.umn.edu/downloads/data/WBDC_BOPA1.tsv.bz2) & [BOPA2](http://morrell-lab.cfans.umn.edu/downloads/data/WBDC_BOPA2.tsv.bz2)) and [SSR](http://morrell-lab.cfans.umn.edu/downloads/data/WBDC_SSR.txt.bz2) from the Wild Barley Diversity Collection. SNP calls are based on machine-scored data using [Alchemy](http://alchemy.sourceforge.net). 
 
 [McCoy et al. 2014](http://jhered.oxfordjournals.org/content/105/2/163.abstract). J of Heredity. GYS1 diversity in horses.
 
@@ -28,7 +28,7 @@ There are also links to a couple of datasets (e.g., wild barley Adh1 and Adh3, S
 
 [Fang et al. 2014](http://www.g3journal.org/content/early/2013/09/13/g3.113.007294.abstract). G3. Examination of a barley experimental population subject to introgression for Fusarium head blight resistance. *Genotypic and phenotypic data for individual lines are available for download from [T3](https://triticeaetoolbox.org) by selecting populations labeled “MN Reopened” and “MN Closed” under “select lines by properties.”*
 
-[Kono et al. 2013](http://onlinelibrary.wiley.com/doi/10.1111/1755-0998.12183/abstract). Mol Ecol Resour. SNP annotation from barley Illumina assays and genotype by sequencing (GBS). Barley Annotations from Illumina Data: [BOPA1], [BOPA2], [POPAs], [Barley9K].
+[Kono et al. 2013](http://onlinelibrary.wiley.com/doi/10.1111/1755-0998.12183/abstract). Mol Ecol Resour. SNP annotation from barley Illumina assays and genotype by sequencing (GBS). Barley Annotations from Illumina Data: [BOPA1](http://morrell-lab.cfans.umn.edu/downloads/data/WBDC_BOPA1.tsv.bz2), [BOPA2](http://morrell-lab.cfans.umn.edu/downloads/data/WBDC_BOPA2.tsv.bz2), [POPAs], [Barley9K].
 
 [Mascher et al. 2013](http://onlinelibrary.wiley.com/doi/10.1111/tpj.12294/abstract). Plant J. Illumina resequencing of barley exome capture. Links to the NCBI Short Read Archive (SRA) are below. [PRJEB1810](http://www.ncbi.nlm.nih.gov/sra/?term=PRJEB1810), [PRJEB1811](http://www.ncbi.nlm.nih.gov/sra/?term=PRJEB1811), [PRJEB1812](http://www.ncbi.nlm.nih.gov/sra/?term=PRJEB1812), [PRJEB3403](http://www.ncbi.nlm.nih.gov/bioproject/?term=PRJEB3403), [PRJEB3404](http://www.ncbi.nlm.nih.gov/bioproject/?term=PRJEB3404). 
 
@@ -44,13 +44,13 @@ There are also links to a couple of datasets (e.g., wild barley Adh1 and Adh3, S
 
 [Aguilar-Meléndez et al. 2009](http://www.amjbot.org/content/96/6/1190.short). Am J Bot. Resequencing data from 80 accessions of chile pepper for [Dhn], [G3pdh], and [Waxy].
 
-[Chen et al. 2009](http://jhered.oxfordjournals.org/content/100/1/56.abstract). J of Heredity. Resequencing data from 33 cultivated avocado accessions for [Cellulase](http://www.ncbi.nlm.nih.gov/popset/169732675), [CHS](http://www.ncbi.nlm.nih.gov/popset/169732767), [F3H](http://www.ncbi.nlm.nih.gov/popset/169732855), and [Stk](http://www.ncbi.nlm.nih.gov/popset/169732939). [Aligned fasta files]
+[Chen et al. 2009](http://jhered.oxfordjournals.org/content/100/1/56.abstract). J of Heredity. Resequencing data from 33 cultivated avocado accessions for [Cellulase](http://www.ncbi.nlm.nih.gov/popset/169732675), [CHS](http://www.ncbi.nlm.nih.gov/popset/169732767), [F3H](http://www.ncbi.nlm.nih.gov/popset/169732855), and [Stk](http://www.ncbi.nlm.nih.gov/popset/169732939). [Aligned fasta files](http://morrell-lab.cfans.umn.edu/downloads/data/Aguacate.zip)
 
 [Chen et al. 2008](http://jhered.oxfordjournals.org/content/99/4/382.abstract). J of Heredity. Resequencing data from 21 wild avocado accessions for [Cellulase](http://www.ncbi.nlm.nih.gov/popset/164471421), [CHS](http://www.ncbi.nlm.nih.gov/popset/164471477), [F3H](http://www.ncbi.nlm.nih.gov/popset/164471535), and [Stk](http://www.ncbi.nlm.nih.gov/popset/164471583).
 
 [Morrell et al. 2007](http://www.pnas.org/content/104/9/3289.abstract). Proc Natl Acad Sci USA. Resequencing data for 20 additional accessions of wild barley for [Cbf3](http://www.ncbi.nlm.nih.gov/popset/126566929), [Dhn9](http://www.ncbi.nlm.nih.gov/popset/126467537), and [ORF1](http://www.ncbi.nlm.nih.gov/popset/126467769), and for 32 cultivated barley accessions for [Cbf3](http://www.ncbi.nlm.nih.gov/popset/126566974), [Dhn4](http://www.ncbi.nlm.nih.gov/popset/126467471), [Dhn9](http://www.ncbi.nlm.nih.gov/popset/126467577), [Faldh](http://www.ncbi.nlm.nih.gov/popset/126467641), [G3pdh](http://www.ncbi.nlm.nih.gov/popset/126467705), [ORF1](http://www.ncbi.nlm.nih.gov/popset/126467809), and [Stk](http://www.ncbi.nlm.nih.gov/popset/126467873).
 
-[Morrell et al. 2006](http://www.genetics.org/content/173/3/1705). Genetics. Corrected haplotypes after error detection. [Fasta alignments  for 18 loci and 25 wild barley accessions]. [Genbank Sequences](http://www.ncbi.nlm.nih.gov/nuccore?term=AY895831%3AAY896053%5BAccession%5D).
+[Morrell et al. 2006](http://www.genetics.org/content/173/3/1705). Genetics. Corrected haplotypes after error detection. [Fasta alignments  for 18 loci and 25 wild barley accessions](http://morrell-lab.cfans.umn.edu/downloads/data/Wild_barley_18.tar.gz). [Genbank Sequences](http://www.ncbi.nlm.nih.gov/nuccore?term=AY895831%3AAY896053%5BAccession%5D).
 
 [Morrell et al. 2005.](http://www.pnas.org/content/102/7/2442.abstract) Proc Natl Acad Sci USA. Resequencing data for 25 wild barley [5'Pepc](http://www.ncbi.nlm.nih.gov/popset/59936823), [Cbf3](http://www.ncbi.nlm.nih.gov/popset/60116227), [Dhn1](http://www.ncbi.nlm.nih.gov/popset/59894236), [Dhn4](http://www.ncbi.nlm.nih.gov/popset/60116276), [Dhn7](http://www.ncbi.nlm.nih.gov/popset/60116325), [Faldh](http://www.ncbi.nlm.nih.gov/popset/59894282), [ORF1](http://www.ncbi.nlm.nih.gov/popset/60116379), [Stk](http://www.ncbi.nlm.nih.gov/popset/60116433), [Vrn1](http://www.ncbi.nlm.nih.gov/popset/59936890). 
 

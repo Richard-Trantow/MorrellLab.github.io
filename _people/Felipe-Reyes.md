@@ -10,3 +10,4 @@ linkedin:
 twitter:
 ---
 
+Felipe is interested in developing bioinformatics and computational skills applicable across various biological sciences.
