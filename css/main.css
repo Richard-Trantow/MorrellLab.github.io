@@ -141,6 +141,31 @@ a:visited { color: #8BA7CB; }
   color: #E8E8E8;
 }
 
+/* Image Styles */
+/* --------------------------------------------------------- */
+.barleyfield {
+  position: relative;
+  float: center;
+  width: 100%;
+  overflow: hidden;
+}
+
+.heatmap {
+  position: relative;
+  display: inline-block;
+  margin-left: 25%;
+  margin-right: auto;
+  width: 20%;
+}
+
+.peter-heatmap {
+  position: relative;
+  display: inline-block;
+  margin-left: auto;
+  margin-right: 25%;
+  width: 20%;
+}
+
 
 /* Home styles */
 /* ----------------------------------------------------------*/
