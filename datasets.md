@@ -28,7 +28,7 @@ There are also links to a couple of datasets (e.g., wild barley Adh1 and Adh3, S
 
 [Fang et al. 2014](http://www.g3journal.org/content/early/2013/09/13/g3.113.007294.abstract). G3. Examination of a barley experimental population subject to introgression for Fusarium head blight resistance. *Genotypic and phenotypic data for individual lines are available for download from [T3](https://triticeaetoolbox.org) by selecting populations labeled “MN Reopened” and “MN Closed” under “select lines by properties.”*
 
-[Kono et al. 2013](http://onlinelibrary.wiley.com/doi/10.1111/1755-0998.12183/abstract). Mol Ecol Resour. SNP annotation from barley Illumina assays and genotype by sequencing (GBS). Barley Annotations from Illumina Data: [BOPA1](http://morrell-lab.cfans.umn.edu/downloads/data/WBDC_BOPA1.tsv.bz2), [BOPA2](http://morrell-lab.cfans.umn.edu/downloads/data/WBDC_BOPA2.tsv.bz2), [POPAs], [Barley9K].
+[Kono et al. 2013](http://onlinelibrary.wiley.com/doi/10.1111/1755-0998.12183/abstract). Mol Ecol Resour. SNP annotation from barley Illumina assays and genotype by sequencing (GBS). Barley Annotations from Illumina Data: [BOPA1], [BOPA2], [POPAs], [Barley9K].
 
 [Mascher et al. 2013](http://onlinelibrary.wiley.com/doi/10.1111/tpj.12294/abstract). Plant J. Illumina resequencing of barley exome capture. Links to the NCBI Short Read Archive (SRA) are below. [PRJEB1810](http://www.ncbi.nlm.nih.gov/sra/?term=PRJEB1810), [PRJEB1811](http://www.ncbi.nlm.nih.gov/sra/?term=PRJEB1811), [PRJEB1812](http://www.ncbi.nlm.nih.gov/sra/?term=PRJEB1812), [PRJEB3403](http://www.ncbi.nlm.nih.gov/bioproject/?term=PRJEB3403), [PRJEB3404](http://www.ncbi.nlm.nih.gov/bioproject/?term=PRJEB3404). 
 
