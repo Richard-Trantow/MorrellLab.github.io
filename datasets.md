@@ -8,9 +8,9 @@ Unfortunately, the PopSet archive does not preserve original alignments.
 Links to PopSet data sets are below, and original alignments will be added.
 There are also links to a couple of datasets (e.g., wild barley Adh1 and Adh3, SNP genotyping data from maize and teosinte) that we did not generate but have used in analyses.
 
-[Kono et al. 2015 (in preparation)](http://biorxiv.org/content/early/2015/11/28/033175). BioRxiv. Barley SNPs from Illumina resequencing, genotyping platforms, and prior Sanger sequencing in VCF format. [Data Sets]
+[Kono et al. 2016](http://mbe.oxfordjournals.org/content/early/2016/06/11/molbev.msw102). Mol Bio Evol. Barley SNPs from Illumina resequencing, genotyping platforms, and prior Sanger sequencing in VCF format. [Data Sets]
 
-[Anderson et al. (in review)]. G3. [Data Sets]
+[Anderson et al. 2016](http://www.g3journal.org/content/6/4/835.abstract). G3. [Data Sets]
 
 [Poets et al. 2015](http://www.g3journal.org/content/early/2015/12/28/g3.115.024349.abstract). G3. SNP genotyping data from the Barley CAP project. [Genetic Map Positions](https://triticeaetoolbox.org/barley/map_flapjack.php?function=typeMapOut&msid=15).
 

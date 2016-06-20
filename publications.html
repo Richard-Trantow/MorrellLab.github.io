@@ -27,8 +27,7 @@ permalink: /publications/
                     {% capture this_year %}{{ post.paper_year }}{% endcapture %} <!-- Capture the year of the current paper as a string -->
                     {% if year contains this_year %} <!-- If our overall year contains the value of the paper's year (again with the space) -->
                         <!-- Create an entry for this paper -->
-                        <a class="post-link" href="{{ post.paper_url }}">{{ post.paper_title }}</a><br />
-                        <span class="post-content">{{ post.paper_author }} ({{ post.paper_year }}). {{post.paper_journal }}.</span><br />
+                        <span class="post-content">{{ post.paper_author }} ({{ post.paper_year }}). <a href="{{ post.paper_url }}">{{ post.paper_title }}</a>. {{post.paper_journal }}.</span><br />
                         {% if post.content %} <!-- Include any extra content if present -->
                             <span class="post-content">{{ post.content }}</span>
                         {% endif %}
