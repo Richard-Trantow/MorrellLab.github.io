@@ -5,6 +5,8 @@ paper_year: 2014
 paper_title: "SNPMeta: SNP annotation and SNP metadata collection without a reference genome"
 paper_journal: "Molecular Ecology Resources 14: 419-425"
 paper_url: "http://onlinelibrary.wiley.com/doi/10.1111/1755-0998.12183/abstract"
+software_name: "SNPMeta"
+software_link: "https://github.com/pmorrell/SNPMeta"
 ---
 
-<a href="http://www.tc.umn.edu/~konox006/Code/SNPMeta/" rel="external">Program Documentation</a> &#8226; <a href="https://github.com/pmorrell/SNPMeta" rel="external">Latest Version on Github</a><br />
+<a href="http://www.tc.umn.edu/~konox006/Code/SNPMeta/" rel="external">Program Documentation</a><br>
