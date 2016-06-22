@@ -1,6 +1,6 @@
 ---
 layout: meeting
-meet_date: 2016-07-25
+meet_date: 2016-08-01
 leader: "Chaochih Liu"
 paper_author: "Chaochih Liu and Li Lei"
 paper_year: 2016

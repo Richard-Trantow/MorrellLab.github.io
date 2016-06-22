@@ -34,6 +34,9 @@ permalink: /publications/
                         {% if post.software_link %}
                             <a href="{{ post.software_link }}">{{ post.software_name }} download</a><br>
                         {% endif %}
+                        {% if post.spanish %}
+                            <a href="../spanish/index.html">Resumen en español</a><br>
+                        {% endif %}
                         {% if post.content %} <!-- Include any extra content if present -->
                             <span class="post-content">{{ post.content }}</span>
                         {% endif %}
