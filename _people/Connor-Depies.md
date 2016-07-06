@@ -9,3 +9,5 @@ github:
 linkedin:
 twitter: 
 ---
+
+Connor is an undergraduate student studying computer science.

@@ -5,7 +5,7 @@ start-date: 2015
 end-date: Present
 image: colin.jpg
 google-scholar:
-github:
+github: https://github.com/cpthrash
 linkedin:
 twitter:
 ---
