@@ -3,7 +3,7 @@ name: "Connor Depies"
 rank: undergraduate
 start-date: 2016-05-01
 end-date: Present
-image: 
+image: "connor.jpg"
 google-scholar:
 github: 
 linkedin:
