@@ -27,7 +27,7 @@ permalink: /compute/
                 {% if post_day >= site_day %}
                     <li>
                         <span class="post-date">{{ post.meet_date | date: "%b %-d, %Y" }}</span>
-                        <a class="post-link" href="{{ post.url }}">{{ post.topic }}</a><br />
+                        <a href="{{ post.url }}">{{ post.topic }}</a><br />
                         <span class="post-content">
                             Lead by:
                             {% if post.leaders %}

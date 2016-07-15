@@ -38,7 +38,7 @@ permalink: /meetings/
                 {% if post_day >= site_day %}
                     <li>
                         <span class="post-date">{{ post.meet_date | date: "%b %-d, %Y" }} - Lead by {{ post.leader }}</span>
-                        <a class="post-link" href="{{ post.paper_url }}">{{ post.paper_title }}</a> <br />
+                        <a href="{{ post.paper_url }}">{{ post.paper_title }}</a> <br />
                         <span class="post-content">{{ post.paper_author }} ({{ post.paper_year }}). {{post.paper_journal }}.</span>
                     </li>
                 {% endif %}

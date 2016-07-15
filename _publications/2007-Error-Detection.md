@@ -8,3 +8,4 @@ paper_url: "http://bioinformatics.oxfordjournals.org/content/23/14/1807.abstract
 software_name: "EDUT"
 software_link: "morrell-lab.cfans.umn.edu/downloads/EDUT_1.2.1.tar.gz"
 ---
+<a href="morrell-lab.cfans.umn.edu/downloads/EDUT_1.2.1.tar.gz" rel="external">EDUT Download</a>

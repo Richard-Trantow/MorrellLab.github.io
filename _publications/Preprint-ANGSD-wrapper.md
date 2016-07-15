@@ -7,5 +7,5 @@ paper_journal: "PeerJ PrePrints 3: e1837"
 paper_url: "https://peerj.com/preprints/1472/"
 preprint: "https://peerj.com/preprints/1472/"
 software_name: "ANGSD-wrapper"
-software_link: "https://github.com/mojaveazure/angsd-wrapper"
+github: "https://github.com/mojaveazure/angsd-wrapper"
 ---
