@@ -28,14 +28,20 @@ permalink: /publications/
                     {% if year contains this_year %} <!-- If our overall year contains the value of the paper's year (again with the space) -->
                         <!-- Create an entry for this paper -->
                         <span class="post-content">{{ post.paper_author }} ({{ post.paper_year }}). <a href="{{ post.paper_url }}">{{ post.paper_title }}</a>. {{post.paper_journal }}.</span><br />
+                        {% if post.citations %}
+                            &#8226 <a href="{{ post.citations }}">Citations</a>
+                        {% endif %}
                         {% if post.preprint %}
-                            <a href="{{ post.preprint }}">Preprint version</a><br>
+                            &#8226 <a href="{{ post.preprint }}">Preprint version</a>
                         {% endif %}
                         {% if post.github %}
-                            <a href="{{ post.github }}">Github</a><br>
+                            &#8226 <a href="{{ post.github }}">Github</a>
                         {% endif %}
                         {% if post.spanish %}
-                            <a href="../spanish/index.html">Resumen en español</a><br>
+                            &#8226 <a href="../spanish/index.html">Resumen en español</a>
+                        {% endif %}
+                        {% if post.citations or post.preprint or post.github or post.spanish %}
+                            <br>
                         {% endif %}
                         {% if post.content %} <!-- Include any extra content if present -->
                             <span class="post-content">{{ post.content }}</span>
