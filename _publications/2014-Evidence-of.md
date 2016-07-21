@@ -5,4 +5,5 @@ paper_year: 2014
 paper_title: "Evidence of positive selection for a glycogen synthase (GYS1) mutation in domestic horse populations"
 paper_journal: "Journal of Heredity 105: 163-172"
 paper_url: "http://jhered.oxfordjournals.org/content/105/2/163"
+cluster: 13176772953265180845
 ---

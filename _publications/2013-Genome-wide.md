@@ -5,4 +5,5 @@ paper_year: 2013
 paper_title: "Genome-wide comparative diversity uncovers multiple targets of selection for improvement in hexaploid wheat landraces and cultivars"
 paper_journal: "Proceedings of the National Academy of Sciences of the United States of America 110: 8057-8062"
 paper_url: "http://www.pnas.org/content/early/2013/04/26/1217133110.abstract"
+cluster: 4191283078277065335
 ---

@@ -5,4 +5,5 @@ paper_year: 2013
 paper_title: "Tracing the geographic origin of weedy <i>Ipomoea purpurea</i> (common morning glory) in the Southeastern United States"
 paper_journal: "Journal of Heredity 104: 666-677"
 paper_url: "http://jhered.oxfordjournals.org/content/early/2013/07/26/jhered.est046.abstract"
+cluster: 3166515624871387664
 ---

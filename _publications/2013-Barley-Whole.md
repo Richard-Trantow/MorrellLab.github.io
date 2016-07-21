@@ -5,4 +5,5 @@ paper_year: 2013
 paper_title: "Barley whole exome capture: a new tool for genomic research in the genus <i>Hordeum</i> and beyond"
 paper_journal: "The Plant Journal 76: 494-505"
 paper_url: "http://onlinelibrary.wiley.com/doi/10.1111/tpj.12294/abstract"
+cluster: 13562026288743761146
 ---

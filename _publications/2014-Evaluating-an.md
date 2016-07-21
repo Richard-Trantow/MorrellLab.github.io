@@ -5,4 +5,5 @@ paper_year: 2014
 paper_title: "Evaluating an interspecific <i>Helianthus annuus</i> x <i>Helianthus tuberosus</i> population for use in a perennial sunflower breeding program"
 paper_journal: "Field Crops Research 155: 254-264"
 paper_url: "http://www.sciencedirect.com/science/article/pii/S0378429013001433"
+cluster: 2961327733153455598
 ---

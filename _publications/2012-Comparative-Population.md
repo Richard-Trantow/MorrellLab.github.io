@@ -5,6 +5,8 @@ paper_year: 2012
 paper_title: "Comparative population genomics of maize domestication and improvement"
 paper_journal: "Nature Genetics 44: 808-811"
 paper_url: "http://www.nature.com/ng/journal/v44/n7/abs/ng.2309.html"
+newsviews: "http://www.nature.com/ng/journal/v44/n7/full/ng.2326.html"
+cluster: 2254239507517002236
 ---
 
 <a href="http://www.nature.com/ng/journal/v44/n7/full/ng.2326.html" rel="external">Nature Genetics News and Views</a>
