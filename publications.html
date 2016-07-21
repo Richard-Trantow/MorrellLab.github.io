@@ -28,8 +28,8 @@ permalink: /publications/
                     {% if year contains this_year %} <!-- If our overall year contains the value of the paper's year (again with the space) -->
                         <!-- Create an entry for this paper -->
                         <span class="post-content">{{ post.paper_author }} ({{ post.paper_year }}). <a href="{{ post.paper_url }}">{{ post.paper_title }}</a>. {{post.paper_journal }}.</span><br />
-                        {% if post.citations %}
-                            &#8226 <a href="{{ post.citations }}">Citations</a>
+                        {% if post.num_citations %}
+                            &#8226 <a href="{{ post.citation_url }}">{{ post.num_citations }} citations</a>
                         {% endif %}
                         {% if post.preprint %}
                             &#8226 <a href="{{ post.preprint }}">Preprint version</a>
@@ -46,14 +46,14 @@ permalink: /publications/
                         {% if post.spanish %}
                             &#8226 <a href="../spanish/index.html">Resumen en español</a>
                         {% endif %}
-                        {% if post.citations or post.preprint or post.github or post.documentation or post.poster or post.spanish %}
+                        {% if post.num_citations or post.preprint or post.github or post.documentation or post.poster or post.spanish %}
                             <br>
                         {% endif %}
                         {% if post.highlight %}
-                            Research highlight by Robin Allaby: <a href="http://genomebiology.biomedcentral.com/articles/10.1186/s13059-015-0743-9" rel="external">Barley domestication: the end of a central dogma?</a>
+                            Research highlight by Robin Allaby: <a href="http://genomebiology.biomedcentral.com/articles/10.1186/s13059-015-0743-9" rel="external">Barley domestication: the end of a central dogma?</a><br>
                         {% endif %}
                         {% if post.newsviews %}
-                            <a href="http://www.nature.com/ng/journal/v44/n7/full/ng.2326.html" rel="external">Nature Genetics News and Views</a>
+                            <a href="http://www.nature.com/ng/journal/v44/n7/full/ng.2326.html" rel="external">Nature Genetics News and Views</a><br>
                         {% endif %}
                         {% if post.content %} <!-- Include any extra content if present -->
                             <span class="post-content">{{ post.content }}</span>

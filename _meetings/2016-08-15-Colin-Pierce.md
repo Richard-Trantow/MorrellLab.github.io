@@ -1,7 +1,7 @@
 ---
 layout: meeting
 meet_date: 2016-08-15
-leader: "Paul Hoffman"
+leader: "Colin Pierce"
 paper_author: "Jing-Zhong L, Brown AHD, Clegg MT"
 paper_year: 2001
 paper_title: "Heterogeneous geographic patterns of nucleotide sequence diversity between two alcohol dehydrogenase genes in wild barley (<i>Hordeum vulgare</i> subspecies <i>spontaneum</i>)"
