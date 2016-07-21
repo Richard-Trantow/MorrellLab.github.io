@@ -1,12 +1,12 @@
 ---
-layout: default
-paper_author: "Poets AM, Fang Z, Clegg MT, Morrell PL"
-paper_year: 2015
-paper_title: "Barley landraces are characterized by geographically heterogeneous genomic origins"
 paper_journal: "Genome Biology 16: 173"
-paper_url: "http://genomebiology.biomedcentral.com/articles/10.1186/s13059-015-0712-3"
 cluster: 17230405651098671923
+paper_year: 2015
+paper_url: "http://genomebiology.biomedcentral.com/articles/10.1186/s13059-015-0712-3"
 highlight: "http://genomebiology.biomedcentral.com/articles/10.1186/s13059-015-0743-9"
+num_citations: "8"
+paper_author: "Poets AM, Fang Z, Clegg MT, Morrell PL"
+citation_url: "http://scholar.google.com/scholar?cites=17230405651098671923&as_sdt=5,24&sciodt=0,24&hl=en"
+paper_title: "Barley landraces are characterized by geographically heterogeneous genomic origins"
+layout: default
 ---
-
-Research highlight by Robin Allaby: <a href="http://genomebiology.biomedcentral.com/articles/10.1186/s13059-015-0743-9" rel="external">Barley domestication: the end of a central dogma?</a>

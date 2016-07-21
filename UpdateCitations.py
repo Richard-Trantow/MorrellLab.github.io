@@ -5,11 +5,12 @@ if not sys.version_info.major == 3 and not sys.version_info >= 3:
     sys.exit("Please use Python 3.3 or higher for this script")
 
 import os
+import time
 try:
     import yaml
     import scholar.scholar as s
 except ImportError as error:
-    sys.exit("FAIL: " + error.name)
+    sys.exit("FAIL: Can't find " + error.name)
 
 #   A function to use scholar.py to send a query and get information about citations
 def send_query(cluster):
@@ -50,11 +51,15 @@ def write_yaml(name, yaml_dict):
         assert isinstance(yaml_dict, dict)
     except AssertionError:
         raise
+    no_quotes = ('layout', 'paper_year', 'cluster')
     with open('_publications/' + name, 'w') as y:
         y.write('---')
         y.write('\n')
         for key, value in yaml_dict.items():
-            y.write(str(key) + ': ' + str(value))
+            if key in no_quotes:
+                y.write(str(key) + ': ' + str(value))
+            else:
+                y.write(str(key) + ': "' + str(value) + '"')
             y.write('\n')
         y.write('---')
 
@@ -79,6 +84,8 @@ def main():
             yaml_dict['num_citations'] = ncites # Add ncites to our yaml dictionary
             yaml_dict['citation_url'] = curl # Add curl to our yaml dictionary
             write_yaml(name, yaml_dict) # Write it out
+            print("Sleeping for 30 seconds", file=sys.stderr)
+            time.sleep(30)
 
 
 main()
