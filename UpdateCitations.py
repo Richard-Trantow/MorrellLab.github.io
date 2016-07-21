@@ -52,6 +52,7 @@ def write_yaml(name, yaml_dict):
         raise
     with open('_publications/' + name, 'w') as y:
         y.write('---')
+        y.write('\n')
         for key, value in yaml_dict.items():
             y.write(str(key) + ': ' + str(value))
             y.write('\n')
