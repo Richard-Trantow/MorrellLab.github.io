@@ -1,7 +1,7 @@
 ---
 layout: meeting
 meet_date: 2016-10-03
-leader: "Corey Carter and Felipe Reyes"
+leader: "Corey Carter and Skylar Wyant"
 paper_author: "Mascher M, Schuenemann VJ, Davidovich U, Marom N, Himmelbach A et al."
 paper_year: 2016
 paper_title: "Genomic analysis of 6,000-year-old cultivated grain illuminates the domestication history of barley"
