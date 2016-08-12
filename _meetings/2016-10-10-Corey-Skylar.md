@@ -1,6 +1,6 @@
 ---
 layout: meeting
-meet_date: 2016-10-03
+meet_date: 2016-10-10
 leader: "Corey Carter and Skylar Wyant"
 paper_author: "Mascher M, Schuenemann VJ, Davidovich U, Marom N, Himmelbach A et al."
 paper_year: 2016
