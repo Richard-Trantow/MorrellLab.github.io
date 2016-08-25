@@ -1,6 +1,6 @@
 ---
 layout: meeting
-meet_date: 2016-09-12
+meet_date: 2016-09-16
 leader: "Skylar Wyant"
 paper_author: "Durvasula A, Hoffman PJ, Kent TV, Liu C, Kono TJY, Morrell PL, Ross-Ibarra J"
 paper_year: 2016

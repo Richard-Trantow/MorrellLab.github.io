@@ -1,6 +1,6 @@
 ---
 layout: meeting
-meet_date: 2016-10-03
+meet_date: 2016-10-07
 leader: "Tom Kono and Richard Trantow"
 paper_author: "Russell J, Mascher M, Dawson IK, Kyriakidis S, Calixto C et al."
 paper_year: 2016
