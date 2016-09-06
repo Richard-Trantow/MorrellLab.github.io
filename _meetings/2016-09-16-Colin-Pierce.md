@@ -1,6 +1,6 @@
 ---
 layout: meeting
-meet_date: 2016-09-23
+meet_date: 2016-09-16
 leader: "Colin Pierce"
 paper_author: "Falush D, van Dorp L, Lawson D"
 paper_year: 2016
