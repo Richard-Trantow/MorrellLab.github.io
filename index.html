@@ -26,7 +26,7 @@ layout: default
             {% assign post_day = post.meet_date | date: "%j" %}
             {% if post_year >= site_year %}
                 {% assign day_diff = post_day | minus: site_day %}
-                {% if day_diff <=5 and day_diff >= 0 %}
+                {% if day_diff <=6 and day_diff >= 0 %}
                     <li>
                         <span class="post-date">Lab Meeting: {{ post.meet_date | date: "%b %-d, %Y" }}</span>
                         <a href="{{ post.paper_url }}">{{ post.paper_title }}</a><br />
