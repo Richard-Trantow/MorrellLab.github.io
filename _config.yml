@@ -17,13 +17,13 @@ permalink: pretty
 
 # Custom Collections
 collections:
-    meetings:
-        output: true
-    compute:
-        output: true
-    people:
-        output: true
-    publications:
-        output: true
-    classics:
-        output: true
+  meetings:
+    output: true
+  compute:
+    output: true
+  people:
+    output: true
+  publications:
+    output: true
+  classics:
+    output: true
