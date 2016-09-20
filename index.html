@@ -40,7 +40,7 @@ layout: default
             {% assign post_day = post.meet_date | date: "%j" %}
             {% if post_year >= site_year %}
                 {% assign day_diff = post_day | minus: site_day %}
-                {% if day_diff <=10 and day_diff >= 0 %}
+                {% if day_diff <=6 and day_diff >= 0 %}
                     <li>
                         <span class="post-date">Does[0]Compute? {{ post.meet_date | date: "%b %-d, %Y" }}</span>
                         <a href="{{ post.url }}">{{ post.topic }}</a><br />
