@@ -1,6 +1,6 @@
 ---
 layout: meeting
-meet_date: 2016-10-07
+meet_date: 2016-09-30
 leader: "Peter Morrell"
 paper_author: "Henry IM, Nagalakshmi U, Lieberman MC, Ngo KJ, Krasileva KV et al."
 paper_year: 2014
