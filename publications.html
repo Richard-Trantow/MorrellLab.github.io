@@ -58,6 +58,9 @@ permalink: /publications/
                         {% if post.content %} <!-- Include any extra content if present -->
                             <span class="post-content">{{ post.content }}</span>
                         {% endif %}
+                        {if post.pdf %}
+                            <a href="{{ post.pdf }}">PDF</a>
+                        {% endif %}
                         <br /> <!-- One last line break -->
                     {% endif %}
                 {% endfor %}
