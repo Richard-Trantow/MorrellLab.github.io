@@ -2,9 +2,9 @@
 layout: meeting
 meet_date: 2016-11-11
 leader: "Paul Hoffman"
-paper_author: "Mascher M, Schuenemann VJ, Davidovich U, Marom N, Himmelbach A et al."
-paper_year: 2016
-paper_title: "Genomic analysis of 6,000-year-old cultivated grain illuminates the domestication history of barley"
-paper_journal: "Nature Genetics"
-paper_url: "http://www.nature.com/ng/journal/vaop/ncurrent/abs/ng.3611.html"
+paper_author: "Jesse D. Hollister and Brandon S. Gaut"
+paper_year: 2009
+paper_title: "Epigenetic silencing of transposable elements: A trade-off between reduced transposition and deleterious effects on neighboring gene expression"
+paper_journal: "Genome Research"
+paper_url: "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2720190/"
 ---
