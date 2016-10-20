@@ -5,3 +5,10 @@ _site/
 # Ignore the .vscode/ directory #
 #################################
 .vscode/
+
+# Ignore .bib files #
+#####################
+*.bib
+
+# Ignore Gemfile.lock #
+Gemfile.lock
