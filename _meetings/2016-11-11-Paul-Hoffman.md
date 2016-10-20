@@ -1,7 +1,7 @@
 ---
 layout: meeting
-meet_date: 2016-11-04
-leader: "Ana Poets"
+meet_date: 2016-11-11
+leader: "Paul Hoffman"
 paper_author: "Mascher M, Schuenemann VJ, Davidovich U, Marom N, Himmelbach A et al."
 paper_year: 2016
 paper_title: "Genomic analysis of 6,000-year-old cultivated grain illuminates the domestication history of barley"
