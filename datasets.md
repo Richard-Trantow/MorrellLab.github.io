@@ -8,7 +8,7 @@ Unfortunately, the PopSet archive does not preserve original alignments.
 Links to PopSet data sets are below, and original alignments will be added.
 There are also links to a couple of datasets (e.g., wild barley Adh1 and Adh3, SNP genotyping data from maize and teosinte) that we did not generate but have used in analyses.
 
-[Kono et al. 2016](http://mbe.oxfordjournals.org/content/early/2016/06/11/molbev.msw102). Mol Bio Evol. Barley SNPs from Illumina resequencing, genotyping platforms, and prior Sanger sequencing in VCF format. [Data Sets]
+[Kono et al. 2016](http://mbe.oxfordjournals.org/content/early/2016/06/11/molbev.msw102). Mol Bio Evol. Barley SNPs from Illumina resequencing, genotyping platforms, and prior Sanger sequencing in VCF format. [Data Sets](https://conservancy.umn.edu/handle/11299/181502)
 
 [Anderson et al. 2016](http://www.g3journal.org/content/6/4/835.abstract). G3. [Data Sets]
 
@@ -16,11 +16,11 @@ There are also links to a couple of datasets (e.g., wild barley Adh1 and Adh3, S
 
 [Poets et al. 2015](http://www.genomebiology.com/2015/16/1/173). Genome Biology. SNP calls for barley landraces based on machine-scored data using [Alchemy](http://alchemy.sourceforge.net). [Raw Genotyping Data](https://figshare.com/articles/Raw_Genotyping_Data_Barley_%20landraces_are_characterized_by_geographically_hetero-%20geneous_genomic_origins/1468432).
 
-[Fang et al. 2014](http://www.g3journal.org/content/4/7/1193.abstract). G3. SNP genotyping from barley oligo pool assay 1 & 2 ([BOPA1](http://hdl.handle.net/11299/181368) & [BOPA2](http://hdl.handle.net/11299/181368)) and [SSR](http://morrell-lab.cfans.umn.edu/downloads/data/WBDC_SSR.txt.bz2) from the Wild Barley Diversity Collection. SNP calls are based on machine-scored data using [Alchemy](http://alchemy.sourceforge.net). 
+[Fang et al. 2014](http://www.g3journal.org/content/4/7/1193.abstract). G3. SNP genotyping from barley oligo pool assay 1 & 2 ([BOPA1](http://hdl.handle.net/11299/181368) & [BOPA2](http://hdl.handle.net/11299/181368)) and [SSR](http://morrell-lab.cfans.umn.edu/downloads/data/WBDC_SSR.txt.bz2) from the Wild Barley Diversity Collection. SNP calls are based on machine-scored data using [Alchemy](http://alchemy.sourceforge.net).
 
 [McCoy et al. 2014](http://jhered.oxfordjournals.org/content/105/2/163.abstract). J of Heredity. GYS1 diversity in horses.
 
-[Morrell et al 2014](http://jhered.oxfordjournals.org/content/early/2013/12/02/jhered.est083.abstract). J of Heredity. Resequencing from barley additional barley landraces. Loci are the same as those from [Morrell et al. 2007](http://www.pnas.org/content/104/9/3289.abstract) (see below). 
+[Morrell et al 2014](http://jhered.oxfordjournals.org/content/early/2013/12/02/jhered.est083.abstract). J of Heredity. Resequencing from barley additional barley landraces. Loci are the same as those from [Morrell et al. 2007](http://www.pnas.org/content/104/9/3289.abstract) (see below).
 
 + *[Cbf3](http://www.ncbi.nlm.nih.gov/popset/532004057), [Dhn4](http://www.ncbi.nlm.nih.gov/popset/?term=532003666), [Dhn9](http://www.ncbi.nlm.nih.gov/popset?DbFrom=nuccore&Cmd=Link&LinkName=nuccore_popset&IdsFromResult=532003403), [Faldh](http://www.ncbi.nlm.nih.gov/popset?DbFrom=nuccore&Cmd=Link&LinkName=nuccore_popset&IdsFromResult=532003915), [G3pdh](http://www.ncbi.nlm.nih.gov/popset?DbFrom=nuccore&Cmd=Link&LinkName=nuccore_popset&IdsFromResult=532003837), [ORF1](http://www.ncbi.nlm.nih.gov/popset?DbFrom=nuccore&Cmd=Link&LinkName=nuccore_popset&IdsFromResult=532003559), [Stk](http://www.ncbi.nlm.nih.gov/popset?DbFrom=nuccore&Cmd=Link&LinkName=nuccore_popset&IdsFromResult=532003634).* Hordeum bulbosum sequences for these loci are below.
 
@@ -40,7 +40,7 @@ There are also links to a couple of datasets (e.g., wild barley Adh1 and Adh3, S
 
 [Gonzales et al. 2012](http://jhered.oxfordjournals.org/content/103/6/863.abstract). J of Heredity. Resequencing data from 30 accessions of Ipomoea purpurea from wild populations in Mexico from [ALS](http://www.ncbi.nlm.nih.gov/popset/?term=399890790), [CHS-D](http://www.ncbi.nlm.nih.gov/popset/?term=399890650), [CHS-E](http://www.ncbi.nlm.nih.gov/popset/?term=399890718), [DFR-B](http://www.ncbi.nlm.nih.gov/popset/?term=399890860), [F3H](http://www.ncbi.nlm.nih.gov/popset/?term=399891255), [FLS](http://www.ncbi.nlm.nih.gov/popset/?term=399891092), [IpHLH1](http://www.ncbi.nlm.nih.gov/popset/?term=399890924), [IpMyb2](http://www.ncbi.nlm.nih.gov/popset/?term=399890956), [IpMyb4](http://www.ncbi.nlm.nih.gov/popset/?term=399891154), [IpWDR1](http://www.ncbi.nlm.nih.gov/popset/?term=399891020), [UF3GT](http://www.ncbi.nlm.nih.gov/popset/?term=399891255). 
 
-[Akhunov et al. 2010](http://bmcgenomics.biomedcentral.com/articles/10.1186/1471-2164-11-702). BMC Genomics. Resequencing data from [2,114](http://probes.pw.usda.gov:8080/snpworld/Map) wheat genes. 
+[Akhunov et al. 2010](http://bmcgenomics.biomedcentral.com/articles/10.1186/1471-2164-11-702). BMC Genomics. Resequencing data from [2,114](http://probes.pw.usda.gov:8080/snpworld/Map) wheat genes.
 
 [Aguilar-Meléndez et al. 2009](http://www.amjbot.org/content/96/6/1190.short). Am J Bot. Resequencing data from 80 accessions of chile pepper for [Dhn], [G3pdh], and [Waxy].
 
@@ -52,7 +52,7 @@ There are also links to a couple of datasets (e.g., wild barley Adh1 and Adh3, S
 
 [Morrell et al. 2006](http://www.genetics.org/content/173/3/1705). Genetics. Corrected haplotypes after error detection. [Fasta alignments  for 18 loci and 25 wild barley accessions](http://morrell-lab.cfans.umn.edu/downloads/data/Wild_barley_18.tar.gz). [Genbank Sequences](http://www.ncbi.nlm.nih.gov/nuccore?term=AY895831%3AAY896053%5BAccession%5D).
 
-[Morrell et al. 2005.](http://www.pnas.org/content/102/7/2442.abstract) Proc Natl Acad Sci USA. Resequencing data for 25 wild barley [5'Pepc](http://www.ncbi.nlm.nih.gov/popset/59936823), [Cbf3](http://www.ncbi.nlm.nih.gov/popset/60116227), [Dhn1](http://www.ncbi.nlm.nih.gov/popset/59894236), [Dhn4](http://www.ncbi.nlm.nih.gov/popset/60116276), [Dhn7](http://www.ncbi.nlm.nih.gov/popset/60116325), [Faldh](http://www.ncbi.nlm.nih.gov/popset/59894282), [ORF1](http://www.ncbi.nlm.nih.gov/popset/60116379), [Stk](http://www.ncbi.nlm.nih.gov/popset/60116433), [Vrn1](http://www.ncbi.nlm.nih.gov/popset/59936890). 
+[Morrell et al. 2005.](http://www.pnas.org/content/102/7/2442.abstract) Proc Natl Acad Sci USA. Resequencing data for 25 wild barley [5'Pepc](http://www.ncbi.nlm.nih.gov/popset/59936823), [Cbf3](http://www.ncbi.nlm.nih.gov/popset/60116227), [Dhn1](http://www.ncbi.nlm.nih.gov/popset/59894236), [Dhn4](http://www.ncbi.nlm.nih.gov/popset/60116276), [Dhn7](http://www.ncbi.nlm.nih.gov/popset/60116325), [Faldh](http://www.ncbi.nlm.nih.gov/popset/59894282), [ORF1](http://www.ncbi.nlm.nih.gov/popset/60116379), [Stk](http://www.ncbi.nlm.nih.gov/popset/60116433), [Vrn1](http://www.ncbi.nlm.nih.gov/popset/59936890).
 
 [Morrell, Lundy, & Clegg 2003.](http://www.pnas.org/content/100/19/10812.abstract) Proc Natl Acad Sci USA. Resequencing data for 25 wild barley accessions for [alpha-amylase type B](http://www.ncbi.nlm.nih.gov/popset/33943181), [Dhn5](http://www.ncbi.nlm.nih.gov/popset/33943231), [Dhn9](http://www.ncbi.nlm.nih.gov/popset/33943285),  [G3pdh](http://www.ncbi.nlm.nih.gov/popset/33943335), [Pepc](http://www.ncbi.nlm.nih.gov/popset/33943387),  [Waxy](http://www.ncbi.nlm.nih.gov/popset/33943437).
 
