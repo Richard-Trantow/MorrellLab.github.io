@@ -1,7 +1,7 @@
 ---
 layout: meeting
 meet_date: 2016-11-11
-leader: "Paul Hoffman"
+leader: "Danelle Seymour"
 paper_author: "Jesse D. Hollister and Brandon S. Gaut"
 paper_year: 2009
 paper_title: "Epigenetic silencing of transposable elements: A trade-off between reduced transposition and deleterious effects on neighboring gene expression"

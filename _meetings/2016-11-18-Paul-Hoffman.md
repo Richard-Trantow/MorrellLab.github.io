@@ -1,7 +1,7 @@
 ---
 layout: meeting
 meet_date: 2016-11-18
-leader: "Danelle Seymour"
+leader: "Paul Hoffman"
 paper_author: "Marsden C, Vecchyo DO, O'Brien DP, Taylor JF, Ramirez O et al."
 paper_year: 2016
 paper_title: "Bottlenecks and selective sweeps during domestication have increased deleterious genetic variation in dogs"
