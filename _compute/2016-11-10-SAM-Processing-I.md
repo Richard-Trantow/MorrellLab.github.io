@@ -1,8 +1,8 @@
 ---
 layout: compute
-meet_date: 2016-12-08
+meet_date: 2016-11-10
 topic: "SAM Processing I"
-leaders: <i>TBD</i>
+leaders: Li Lei
 ---
 
 We will be introducing SAMTools and Picard
