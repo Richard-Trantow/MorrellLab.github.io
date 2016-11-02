@@ -1,6 +1,6 @@
 ---
 name: "Paul Hoffman"
-rank: undergraduate
+rank: technician
 start-date: 2014-12-08
 end-date: Present
 image: paul.jpg
@@ -10,4 +10,4 @@ linkedin: https://www.linkedin.com/in/pauljhoffman
 twitter: https://twitter.com/MojaveAzure
 ---
 
-Paul is an undergraduate majoring in Microbiology.
+Paul is the bioinformatics specialist. He is interested in population structure, plant pathology and immunology, and computational biology.
