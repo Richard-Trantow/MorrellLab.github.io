@@ -7,7 +7,7 @@ image: "chaochih.jpg"
 google-scholar: https://scholar.google.com/citations?user=nq-vBnkAAAAJ&hl=en&oi=ao
 github: https://github.com/liux1299
 linkedin: https://www.linkedin.com/pub/chaochih-liu/50/4b9/bb2
-twitter: https://twitter.com/Chuchulu10
+twitter: https://twitter.com/ChaochihLiu
 ---
 
 Chaochih has been working as a lab technician and has been investigating genomic structural variations that contribute to locally adaptive processes in barley. She is interested in evolutionary genetics and plant evolution.
