@@ -1,6 +1,6 @@
 ---
 layout: compute
-meet_date: 2016-12-15
+meet_date: 2016-12-1
 topic: "Advanced Software Installation"
 leaders: Paul Hoffman
 ---
