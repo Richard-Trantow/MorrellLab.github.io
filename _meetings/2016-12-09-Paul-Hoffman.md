@@ -1,6 +1,6 @@
 ---
 layout: meeting
-meet_date: 2016-12-02
+meet_date: 2016-12-09
 leader: "Paul Hoffman"
 paper_author: "Fransz P, Linc G, Lee C, Aflitos SA, Lasky JR et al."
 paper_year: 2016

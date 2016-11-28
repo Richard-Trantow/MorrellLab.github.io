@@ -1,6 +1,6 @@
 ---
 layout: meeting
-meet_date: 2016-12-09
+meet_date: 2016-12-02
 leader: "Colin Pierce"
 paper_author: "Makarevitch I, Waters AJ, West PT, Stitzer M, Hirsch CN et al."
 paper_year: 2015

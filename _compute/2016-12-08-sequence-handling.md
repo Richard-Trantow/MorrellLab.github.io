@@ -1,6 +1,6 @@
 ---
 layout: compute
-meet_date: 2016-12-01
+meet_date: 2016-12-08
 topic: "sequence_handling"
 leaders: Fernanda Rodriguez
 ---
